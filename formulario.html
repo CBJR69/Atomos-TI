@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <link rel="icon" href="img/Logos/Atomos_Ti_-_logo-removebg-preview.png" type="image/x-icon"> <!-- Alterar = Logo -->
+    <link rel="shortcut icon" href="img/Logos/Atomos_Ti_-_logo-removebg-preview.png" type="image/x-icon"> <!-- Alterar = Logo -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Renan Teixeira Morano" />
+    <title>Formulário para contato</title>
+    <link rel="stylesheet" href="formulario.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto+Mono?classification=Monospace">
+</head>
+
+<body>
+ 
+
+    <form action="#" method="post" autocomplete="off">
+        
+        <fieldset>
+            <legend>Formulário de contato</legend>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" required placeholder="Digite seu nome completo" />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required placeholder="Digite um e-mail válido" />
+            <label for="subject">Assunto</label>
+            <input type="text" name="subject" id="subject" />
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20"
+                placeholder="Conte-nos a sua necessidade"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+
+</html>
